@@ -74,6 +74,21 @@
     <Compile Include="Assets\2d-extras-2018.2\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\RuleOverrideTileEditor.cs" />
     <Compile Include="Assets\2d-extras-2018.2\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\CustomRuleTileMenu.cs" />
     <Compile Include="Assets\2d-extras-2018.2\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\RuleTileEditor.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AssetBuildReport.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AssetHunterHelper.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AssetHunterMainWindow.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AssetHunterSettings.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AssetHunterSettingsCreator.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AssetHunterSettingsWindow.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\AsssetHunterSceneOverview.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\ProjectFolderInfo.cs" />
+    <Compile Include="Assets\Heureka\AssetHunter\Editor\SerializableSystemType.cs" />
+    <Compile Include="Assets\Heureka\HeurekaShared\Editor\AssetReader.cs" />
+    <Compile Include="Assets\Heureka\HeurekaShared\Editor\ClassBuilder\ClassBuilder.cs" />
+    <Compile Include="Assets\Heureka\HeurekaShared\Editor\ClassBuilder\ClassBuilderType.cs" />
+    <Compile Include="Assets\Heureka\HeurekaShared\Editor\EditorUtils.cs" />
+    <Compile Include="Assets\Heureka\HeurekaShared\Editor\ScriptableObjectUtility.cs" />
+    <None Include="Assets\Heureka\AssetHunter\Editor\Settings\ScriptableObjectsFolder.txt" />
     <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/olivi/Saved Games/2D/FantastiAbstracto2d/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
@@ -358,7 +373,7 @@
       <HintPath>C:/Users/olivi/Saved Games/2D/FantastiAbstracto2d/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/olivi/Saved Games/2D/FantastiAbstracto2d/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/olivi/Saved Games/2D/FantastiAbstracto2d/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Unity2018.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
