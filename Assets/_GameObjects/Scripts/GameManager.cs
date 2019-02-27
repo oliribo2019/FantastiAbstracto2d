@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
     private static int points = 0;
     private static int level = 1;
     private static int lives = 2;
+
     public static readonly string RECORD1 = "record1";
     public static readonly string RECORD2 = "record2";
     public static readonly string RECORD3 = "record3";
@@ -49,4 +50,5 @@ public class GameManager : MonoBehaviour {
             points = value;
         }
     }
+    
 }

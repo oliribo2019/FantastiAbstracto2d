@@ -8,6 +8,7 @@ TagManager:
   - UIButton
   - Pinchos
   - TextScore
+  - GlueObject
   layers:
   - Default
   - TransparentFX

@@ -7,4 +7,5 @@ public class Tags {
     public static string PLAYER = "Player";
     public static string PINCHOS = "Pinchos";
     public static string ENEMY = "Enemy";
+    public static string GLUEOBJECT = "GlueObject"; 
 }

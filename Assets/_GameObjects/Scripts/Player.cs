@@ -66,7 +66,26 @@ public class Player : MonoBehaviour {
         if (collision.CompareTag(Tags.ITEM)) {
             collision.gameObject.GetComponent<Item>().DoAction();
             //collision.gameObject.GetComponent("Item");
+        }else if (collision.CompareTag(Tags.GLUEOBJECT))
+        {
+            transform.SetParent(collision.transform);            
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        state = State.InFloor;
+        //
+        ChangeFriction(1f);
+        //
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        print("no esta en el suelo");
+        state = State.Jumping;
+        //Physics2D.Raycast.x = 0;
+        transform.SetParent(null);
     }
     public void ReceiveDamage(int damage)
     {
@@ -78,10 +97,18 @@ public class Player : MonoBehaviour {
         rb2d.AddForce((new Vector2(xForce * multiplier, yForce)) * force);
         state = State.Jumping;
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void ChangeFriction(float newFriction)
     {
-        if (state == State.Jumping) {
-            state = State.InFloor;
-        }
+        PhysicsMaterial2D pm2d = GetComponent<CapsuleCollider2D>().sharedMaterial;
+        pm2d.friction = 1f;
+        GetComponent<CapsuleCollider2D>().sharedMaterial = pm2d;
     }
+    /* private void OnCollisionEnter2D(Collision2D collision)
+     {
+         if (state == State.Jumping) {
+             state = State.InFloor;
+         }
+     }*/
+
 }
