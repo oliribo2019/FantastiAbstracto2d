@@ -118,6 +118,7 @@
     <None Include="Assets\_GameObjects\sprites\Spritesheets\spritesheet_players.xml" />
     <None Include="Assets\_GameObjects\sprites\Spritesheets\spritesheet_hud.xml" />
     <None Include="Assets\_GameObjects\sprites\Spritesheets\spritesheet_complete.xml" />
+    <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedTile.shader" />
     <None Include="Assets\_GameObjects\sprites\Spritesheets\spritesheet_items.xml" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/olivi/Saved Games/2D/FantastiAbstracto2d/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
