@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour {
     public Transform endPosition;
     private float pct;//Porcentaje de avance
     public float speed;
+
     private void Start()
     {
         startPosition = transform.position;

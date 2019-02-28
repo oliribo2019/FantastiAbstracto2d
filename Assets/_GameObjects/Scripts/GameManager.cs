@@ -5,7 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     private static int points = 0;
     private static int level = 1;
-    private static int lives = 2;
+    private static float lives = 10;
+
     public static readonly string RECORD1 = "record1";
     public static readonly string RECORD2 = "record2";
     public static readonly string RECORD3 = "record3";
@@ -15,9 +16,19 @@ public class GameManager : MonoBehaviour {
     {
         points = points + _points;
     }
-    public static void AddLive(int _lives)
+    public static void AddLive(float _lives)
     {
         lives = lives + _lives;
+        print(lives);
+    }
+    public static void StealLive(float _lives)
+    {
+        lives = lives - _lives;
+        print(lives);
+    }
+    public static void StealPoints(int _points)
+    {
+        points = points - _points;
     }
 
     public static int Level {
@@ -30,7 +41,7 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public static int Lives {
+    public static float Lives {
         get {
             return lives;
         }
@@ -49,4 +60,5 @@ public class GameManager : MonoBehaviour {
             points = value;
         }
     }
+    
 }

@@ -89,14 +89,12 @@ C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEngine.XRM
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityScript.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityScript.Lang.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Vuforia.UnityExtensions.dll
-C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Vuforia.UnityExtensions.Editor.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.Cecil.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.SerializationLogic.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.DataContract.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\ExCSS.Unity.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.UNetWeaver.dll
-C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEditor.UI.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.IvyParser.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Boo.Lang.Compiler.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
@@ -105,8 +103,6 @@ C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Boo.Lang.Useful
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Unity.Cecil.Mdb.dll
-C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\VuforiaScripts.pdb
-C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\VuforiaEditorScripts.pdb
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEngine.xml
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEditor.xml
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEngine.AIModule.xml
@@ -176,10 +172,10 @@ C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEngine.Net
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Vuforia.UnityExtensions.xml
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\Vuforia.UnityExtensions.Editor.xml
-C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEditor.UI.xml
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\obj\Debug\Assembly-CSharp.dll
 C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\obj\Debug\Assembly-CSharp.pdb
+C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\olivi\Saved Games\2D\FantastiAbstracto2d\Temp\bin\Debug\UnityEditor.UI.xml

@@ -231,6 +231,7 @@ MonoBehaviour:
   - {fileID: 1274065914}
   - {fileID: 369293962}
   - {fileID: 2127585532}
+  panelBack: {fileID: 0}
 --- !u!1 &134025895
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221813537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.229029, y: -0.73516464, z: -10}
+  m_LocalPosition: {x: -12.230388, y: -0.73516464, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -596,7 +597,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8e9563b94d6193c46a49fb73b1fc1985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa66d134192ef4dbd88b282d75f43dcf, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -937,7 +938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linearSpeed: 5
-  jumpForce: 10
+  jumpForce: 8
   health: 100
   xForce: 1
   yForce: 2
@@ -1015,7 +1016,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: dbd46380ae642c24bab0e9c3cd39737f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fab12ad944bfc9845928cf137ca67d18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1049,9 +1050,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 744259327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 115969862, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a7fbf8122638ec409889718a6712174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  proyectil: {fileID: 1138720690162126, guid: 73944e1aa8941ff4c842eb8de4f2ff67, type: 3}
 --- !u!4 &746075073 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4337124314394470, guid: 11dd96860b671f744939ac851977a14a,
@@ -13027,7 +13029,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892618960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.229029, y: -0.73516464, z: -10}
+  m_LocalPosition: {x: -12.230388, y: -0.73516464, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1377867751}
@@ -13345,7 +13347,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8e9563b94d6193c46a49fb73b1fc1985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 23c14d1aa1503411f90e98fe2424af49, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -14410,6 +14412,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3664082577438253399, guid: c3fc15b1d54cc52439af0b8971ecc2c9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664082577438253399, guid: c3fc15b1d54cc52439af0b8971ecc2c9,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 35
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3fc15b1d54cc52439af0b8971ecc2c9, type: 3}
 --- !u!224 &2035838155 stripped
@@ -14621,7 +14633,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8e9563b94d6193c46a49fb73b1fc1985, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb35bc3c8ea2f4134a61019114889403, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

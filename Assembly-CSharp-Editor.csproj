@@ -89,7 +89,6 @@
     <Compile Include="Assets\Heureka\HeurekaShared\Editor\EditorUtils.cs" />
     <Compile Include="Assets\Heureka\HeurekaShared\Editor\ScriptableObjectUtility.cs" />
     <None Include="Assets\Heureka\AssetHunter\Editor\Settings\ScriptableObjectsFolder.txt" />
-    <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/olivi/Saved Games/2D/FantastiAbstracto2d/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
@@ -413,14 +412,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{E1272775-F9C3-6D72-2937-68DDFF30025B}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{F5F35F7A-6B5A-2FD8-FCA3-C178453D1173}</Project>
-      <Name>VuforiaScripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{61572725-325C-6D0A-30C3-FAB6EB00A1AF}</Project>
-      <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -51,21 +51,47 @@ public class Player : MonoBehaviour {
         if (Mathf.Abs(x) > 0) {
             animator.SetBool(ANIM_WALK, true);
             rb2d.velocity = new Vector2(x * linearSpeed, rb2d.velocity.y);
-            sr.flipX = (x < 0);
+            transform.rotation = (x > 0) ?
+                   Quaternion.Euler(Vector2.zero) : Quaternion.Euler(new Vector2(0, 180));
+        }
+/*            sr.flipX = (x < 0);
+
         } else {
             animator.SetBool(ANIM_WALK, false);
-        }
+        }*/
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag(Tags.ITEM)) {
             collision.gameObject.GetComponent<Item>().DoAction();
             //collision.gameObject.GetComponent("Item");
+        }else if (collision.CompareTag(Tags.GLUEOBJECT))
+        {
+            transform.SetParent(collision.transform);            
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        state = State.InFloor;
+        //
+        ChangeFriction(1f);
+        animator.SetBool(ANIM_WALK, false);//deja de andar al estar en una plataforma movible
+
+        //
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        state = State.Jumping;
+        //Physics2D.Raycast.x = 0;
+        transform.SetParent(null);
     }
     public void ReceiveDamage(int damage)
     {
         health = health - damage;
+        GameManager.StealLive(damage);
     }
     public void SetImpulse(float force)
     {
@@ -73,10 +99,18 @@ public class Player : MonoBehaviour {
         rb2d.AddForce((new Vector2(xForce * multiplier, yForce)) * force);
         state = State.Jumping;
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void ChangeFriction(float newFriction)
     {
-        if (state == State.Jumping) {
-            state = State.InFloor;
-        }
+        PhysicsMaterial2D pm2d = GetComponent<CapsuleCollider2D>().sharedMaterial;
+        pm2d.friction = 1f;
+        GetComponent<CapsuleCollider2D>().sharedMaterial = pm2d;
     }
+    /* private void OnCollisionEnter2D(Collision2D collision)
+     {
+         if (state == State.Jumping) {
+             state = State.InFloor;
+         }
+     }*/
+
 }
